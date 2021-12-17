@@ -1,0 +1,105 @@
+/* container has 0 padding to make top purple rect box fit perfectly */
+.container {
+    border: solid black;
+    width: 428px;
+    height: 926px;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+/* blenny font */
+.fonts {
+    color: black;
+    font-family: blenny, sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.homeFont {
+    font-family: ff-real-headline-pro, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+/* loading page background gradient */
+.gradient {
+    background-image: linear-gradient(#DBC8E2, white);
+}
+
+.rect {
+    background-color: #DBC8E2;
+    height: 200px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+/* line splittng time and back button from content on rectangle */
+.line {
+    width: 425px;
+    border-bottom: 1px solid black;
+    position: absolute;
+}
+/* outline for view and upload button on home page */
+.viewBtn{
+    border: 1px solid;
+    background-color: #DBC8E2;
+    width: 135px;
+    padding: 10px;
+    box-shadow: 3px 2px #DBC8E2;
+}
+.uploadBtn{
+    border: 1px solid;
+    background-color: #DBC8E2;
+    width: 156px;
+    padding: 10px;
+    box-shadow: 3px 2px #DBC8E2;
+}
+.uploadBtn2{
+    border: 1px solid;
+    background-color: #DBC8E2;
+    width: 60px;
+    padding: 10px;
+    box-shadow: 3px 2px #DBC8E2;
+}
+/* modal and close button for view wardrobe page (different width sizes for words) */
+.modalBtn{
+    border: 1px solid;
+    background-color: #DBC8E2;
+    width: 84px;
+    padding: 10px;
+    box-shadow: 3px 2px #DBC8E2;
+}
+.closeBtn{
+    border: 1px solid;
+    background-color: #DBC8E2;
+    width: 50px;
+    padding: 10px;
+    box-shadow: 3px 2px #DBC8E2;
+}
+/*back button padding aligned to top left  */
+.btn {
+    padding: 0;
+}
+
+
+/* BUTTON TEXT COLOUR - NO UNDERLINE ALSO */
+.btn-link {
+    text-decoration: none;
+    color: black;
+}
+
+.btn-link:hover {
+    color: white;
+}
+/* THIS TAKES AWAY BOX SHADOW ON BUTTON PRESSED */
+.btn:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.box1{
+    width:50%;
+}
+.box2 {
+    float:left;
+    width:50%;
+}
